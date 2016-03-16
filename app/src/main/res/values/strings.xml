@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">格米</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="act_near">附近</string>
+    <string name="act_cheaper">找便宜</string>
+    <string name="act_tehui">特惠</string>
+    <string name="act_pocket">口袋</string>
+    <string name="act_more">更多</string>
+
+    <string name="cp_search_hint">请输入关键字</string>
+    <string name="cp_chuancai">川菜</string>
+    <string name="cp_huoguo">火锅</string>
+    <string name="cp_dingying">电影院</string>
+    <string name="cp_hunsha">婚纱摄影</string>
+    <string name="cp_coffee">咖啡馆</string>
+    <string name="cp_hotel">酒店</string>
+    <string name="cp_shaokao">烧烤</string>
+    <string name="cp_ktv">KTV</string>
+    <string name="cp_shop">商圈选择</string>
+    <string name="cp_business">行业选择</string>
+    <string name="cp_brand">品牌选择</string>
+    <string name="cp_s">商超选择</string>
+
+    <string name="near_location">当前位置：成都天府广场</string>
+    <string name="near_list_title">大酒店</string>
+    <string name="near_list_content">网上预订入住可享返现优惠</string>
+    <string name="near_list_distance">203米</string>
+    <string name="near_list_where">四川省成都市金牛区</string>
+
+    <string name="more_personal">个人中心</string>
+    <string name="more_guanzhu">我的关注</string>
+    <string name="more_liu">最近浏览</string>
+    <string name="more_about">关于我们</string>
+    <string name="more_message">系统消息</string>
+    <string name="more_setting">选项设置</string>
+    <string name="more_shop">商家发布</string>
+    <string name="more_sugest">意见反馈</string>
+
+    <string name="favor_pagecount">张数</string>
+
+    <string name="pinpai_sec_txt">味牛自助烤肉</string>
+    
+    <string name="search_hint">请输入</string>
+
+    <string name="clear_search_keyword">清空历史记录</string>
+</resources>

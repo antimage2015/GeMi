@@ -1,0 +1,208 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_cheaper_background"
+    tools:context="com.crazy.gemi.ui.cheaper.CheaperFragment">
+
+    <RelativeLayout
+        android:id="@+id/fg_cheaper_search_all_yuan"
+        android:layout_margin="8dp"
+        android:background="@drawable/bg_cheaper_search"
+        android:layout_width="match_parent"
+        android:layout_height="34dp">
+        <ImageView
+            android:id="@+id/fg_cheaper_search_img_yuan"
+            android:src="@drawable/abc_ic_search_api_mtrl_alpha"
+            android:layout_marginLeft="24dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/fg_cheaper_search_hint_yuan"
+            android:layout_toRightOf="@id/fg_cheaper_search_img_yuan"
+            android:hint="@string/cp_search_hint"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="30dp"
+            android:background="@null"
+            android:singleLine="true"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+
+    <com.warmtel.android.xlistview.XListView
+        android:id="@+id/fg_cheaper_listView_yuan"
+        android:layout_below="@id/fg_cheaper_search_all_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:divider="@null" />
+
+    <LinearLayout
+        android:id="@+id/fg_cheaper_choose_one_yuan"
+        android:layout_below="@id/fg_cheaper_listView_yuan"
+        android:background="@drawable/bg_cheaper_fg"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/fg_cheaper_choose_chuancai_yuan"
+            android:text="@string/cp_chuancai"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fg_cheaper_choose_huoguo_yuan"
+            android:text="@string/cp_huoguo"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fg_cheaper_choose_dianying_yuan"
+            android:text="@string/cp_dingying"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fg_cheaper_choose_hunsa_yuan"
+            android:text="@string/cp_hunsha"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/fg_cheaper_choose_two_yuan"
+        android:layout_below="@id/fg_cheaper_choose_one_yuan"
+        android:background="@drawable/bg_cheaper_fg"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/fg_cheaper_choose_coffee_yuan"
+            android:text="@string/cp_coffee"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fg_cheaper_choose_hotel_yuan"
+            android:text="@string/cp_hotel"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fg_cheaper_choose_shakao_yuan"
+            android:text="@string/cp_shaokao"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/fg_cheaper_choose_ktv_yuan"
+            android:text="@string/cp_ktv"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginRight="5dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/fg_cheaper_choose_shop_txt_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/fg_cheaper_choose_two_yuan"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_cheaper_fg"
+        android:drawableLeft="@drawable/find_businessarea_icon"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/arrows"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/cp_shop"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fg_cheaper_choose_bus_txt_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/fg_cheaper_choose_shop_txt_yuan"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bg_cheaper_fg"
+        android:drawableLeft="@drawable/cheap_industry"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/arrows"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/cp_business"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/fg_cheaper_choose_brand_txt_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/fg_cheaper_choose_bus_txt_yuan"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bg_cheaper_fg"
+        android:drawableLeft="@drawable/cheap_pinpai"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/arrows"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/cp_brand"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/fg_cheaper_choose_s_txt_yuan"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/fg_cheaper_choose_brand_txt_yuan"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/bg_cheaper_fg"
+        android:drawableLeft="@drawable/cheap_business"
+        android:drawablePadding="5dp"
+        android:drawableRight="@drawable/arrows"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/cp_s"
+        android:textSize="16sp" />
+
+</RelativeLayout>

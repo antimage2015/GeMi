@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/bg_cheaper_fg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/business_sec_menu_item_img"
+        android:src="@drawable/cheap_industry"
+        android:layout_marginLeft="8dp"
+        android:scaleType="centerCrop"
+        android:layout_width="45dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:id="@+id/business_sec_menu_item_txt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="8dp"
+        android:drawableRight="@drawable/arrows"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/cp_business"
+        android:textSize="18sp" />
+
+</LinearLayout>

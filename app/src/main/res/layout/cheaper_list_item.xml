@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/bg_cheaper_fg"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/fg_cheaper_choose_chuancai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:text="@string/cp_chuancai"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fg_cheaper_choose_huoguo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/cp_huoguo"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fg_cheaper_choose_dianying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="@string/cp_dingying"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/fg_cheaper_choose_hunsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1"
+        android:text="@string/cp_hunsha"
+        android:textSize="16sp" />
+
+</LinearLayout>

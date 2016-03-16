@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_enabled="false"
+        android:drawable="@drawable/nearby_select_bg_s" />
+    <item
+        android:state_pressed="true"
+        android:drawable="@drawable/nearby_select_bg_p" />
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/expand_tab_item_check" />
+
+    <item android:drawable="@drawable/nearby_select_bg_s" />
+</selector>

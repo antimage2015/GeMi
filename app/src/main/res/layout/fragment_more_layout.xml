@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.crazy.gemi.ui.more.MoreFragment">
+
+    <com.crazy.gemi.ui.topbar.TopBar
+        android:id="@+id/more_top_bar"
+        android:background="@drawable/bg_cheaper_fg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        custom:topbar_left_icon="@drawable/more_logo" />
+
+    <View
+        android:id="@+id/fg_more_line"
+        android:background="@android:color/darker_gray"
+        android:layout_below="@id/more_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <LinearLayout
+        android:id="@+id/fg_more_first"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/fg_more_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/fg_more_personal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/personal_center"
+            android:text="@string/more_personal"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/fg_more_care"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/mycare_icon"
+            android:gravity="center"
+            android:text="@string/more_guanzhu"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/fg_more_liu"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:drawableTop="@drawable/lately_icon"
+            android:text="@string/more_liu"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fg_more_sec"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/fg_more_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/fg_more_about"
+            android:layout_weight="1"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:drawableTop="@drawable/about_us_icon"
+            android:text="@string/more_about"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/fg_more_mes"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/pushmsg_icon"
+            android:text="@string/more_message"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/fg_more_setting"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/setting_icon"
+            android:text="@string/more_setting"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/fg_more_third"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/fg_more_sec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/fg_more_shop"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/mer_publis_icon"
+            android:text="@string/more_shop"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <TextView
+            android:id="@+id/fg_more_sugest"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:drawableTop="@drawable/sugest_icon"
+            android:text="@string/more_sugest"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+        <ImageView
+            android:layout_weight="1"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+    </LinearLayout>
+</RelativeLayout>
